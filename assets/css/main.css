@@ -577,13 +577,15 @@ section {
 --------------------------------------------------------------*/
 .hero-animated {
   width: 100%;
-  min-height: 50vh;
-  background: url("../img/splash.jpg") center center;
+  min-height: 10vh;
+  height: 600px;
+  background: url("../img/dark.jpg") center center;
   /* filter:brightness(40%); */
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;
 }
+
 
 .hero-animated h2 {
   margin: 0 0 10px 0;
@@ -1139,6 +1141,7 @@ section {
 --------------------------------------------------------------*/
 .featured-services .service-item {
   padding: 30px;
+  background: url('/img/jj-ying-8bghKxNU1j0-unsplash.jpg') center center;
   transition: all ease-in-out 0.4s;
   background: var(--color-white);
   height: 100%;
